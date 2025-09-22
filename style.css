@@ -28,7 +28,6 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    max-width: 600px;  /* Limitando a largura máxima */
 }
 
 /* Banner */
@@ -81,14 +80,13 @@ body {
 }
 
 .input-name {
-    width: 70%;  /* Ajustando a largura para que ocupe mais espaço */
+    width: 100%;
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
 
-/* Botão de adicionar */
 .button-container {
     width: 300px;
     justify-content: center;
@@ -168,7 +166,8 @@ ul {
     background-color: #fe652b;
     color: white;
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 10px;  /* Ajuste o espaçamento entre o "Adicionar" e o "Limpar lista" */
+    margin-left: 10px;  /* Adiciona espaçamento entre os botões */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -193,6 +192,7 @@ ul {
         display: flex;
         justify-content: center;
         margin-top: 10px;
+        flex-direction: column;  /* Torna os botões empilhados em telas pequenas */
     }
 
     .button-clear, .button-draw {
@@ -200,5 +200,5 @@ ul {
         margin: 10px 0;
     }
 }
-
   
+
