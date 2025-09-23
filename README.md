@@ -4,6 +4,7 @@
  O projeto Amigo Secreto é uma aplicação simples em HTML, CSS e JavaScript. O objetivo é simular o tradicional jogo de Amigo Secreto, onde os participantes  sorteiam nomes de maneira automática.
 
  Como Funciona
+     
      1. O usuário entra com o nome de todos os participantes.
      2. Ao clicar no botão de "Sortear", o sistema distribui os nomes aleatoriamente, atribuindo um Amigo Secreto para cada pessoa.
      3. Cada participante pode ver quem foi sorteado para ele, e o sorteio é realizado de forma justa e aleatória.
